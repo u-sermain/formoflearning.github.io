@@ -1,0 +1,45 @@
+CREATE TABLE tbl_traditional (
+	id int(10) PRIMARY KEY AUTO_INCREMENT,
+    rname varchar(30),
+    age int(5) not null,
+    course varchar(10) not null,
+    lvl varchar(10) not null,
+    question1 varchar(5) not null,
+    question2 varchar(5) not null,
+    question3 varchar(5) not null,
+    question4 varchar(5) not null,
+    question5 varchar(5) not null,
+    question6 varchar(5) not null,
+    question7 varchar(5) not null,
+    question8 varchar(5) not null,
+    question9 varchar(5) not null,
+    question10 varchar(5) not null
+);
+
+CREATE TABLE tbl_online (
+	id int(10) PRIMARY KEY AUTO_INCREMENT,
+    rname varchar(30),
+    age int(5) not null,
+    course varchar(10) not null,
+    lvl varchar(10) not null,
+    question11 varchar(5) not null,
+    question12 varchar(5) not null,
+    question13 varchar(5) not null,
+    question14 varchar(5) not null,
+    question15 varchar(5) not null,
+    question16 varchar(5) not null,
+    question17 varchar(5) not null,
+    question18 varchar(5) not null,
+    question19 varchar(5) not null,
+    question20 varchar(5) not null,
+    question21 varchar(5) not null
+);
+
+CREATE TABLE tbl_comments (
+	id int(10) PRIMARY KEY AUTO_INCREMENT,
+    rname varchar(30),
+    age int(5) not null,
+    course varchar(10) not null,
+    lvl varchar(10) not null,
+    comments varchar(1000)
+);

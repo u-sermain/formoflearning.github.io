@@ -1,0 +1,24 @@
+body {
+    background-color: #ffead5;
+}
+
+.grid-container {
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.head {
+    background-color: #ff8800;
+    color: white;
+    padding: 3%;
+    font-size: 125%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-x {
+    margin: 3%;
+}
